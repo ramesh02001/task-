@@ -1,0 +1,24 @@
+Title: Objects and Their Internal Representation in JavaScript: A Closer Look
+
+Introduction:
+JavaScript, being a versatile and widely-used programming language, provides developers with a powerful data structure known as objects. Objects in JavaScript are incredibly flexible, allowing us to represent complex entities with properties and behaviors. In this blog post, we will explore the internal representation of objects in JavaScript and gain a deeper understanding of how they work.
+
+What Are Objects in JavaScript?
+In JavaScript, objects are one of the fundamental data types. They are a collection of key-value pairs, where each value can be of any data type, including other objects. Objects are dynamic, meaning that properties can be added, modified, or removed at any time during runtime. This flexibility makes objects an essential tool for building complex applications.
+
+Internal Representation of Objects:
+Under the hood, objects in JavaScript are implemented using a data structure called a hash table or a hash map. A hash table is a data structure that allows efficient lookup, insertion, and deletion of key-value pairs. It achieves this efficiency by using a hash function to compute an index where the value is stored in an internal array.
+
+In JavaScript, every object is associated with an internal hash map that stores its properties. When we create an object and assign properties to it, these properties are stored in the hash map. The keys of the properties are converted to strings and used as indexes in the hash map.
+
+Property Access and Lookup:
+To access the properties of an object, we can use either the dot notation (object.property) or the bracket notation (object['property']). When we use the dot notation, JavaScript internally converts the property name to a string and performs a lookup in the object's hash map using that string as the index. With the bracket notation, we can use any expression as the property name, which is then converted to a string and used for lookup.
+
+Adding and Modifying Properties:
+One of the advantages of objects in JavaScript is that we can dynamically add and modify properties. When we assign a value to a new property on an object, JavaScript adds the property to the internal hash map. If the property already exists, its value is updated. This flexibility allows us to adapt objects to changing requirements during runtime.
+
+Deleting Properties:
+We can also remove properties from an object using the delete keyword. When we delete a property, JavaScript removes it from the internal hash map, making it no longer accessible. However, it's important to note that deleting a property does not affect any other objects that may have a reference to the same property.
+
+Conclusion:
+Objects in JavaScript are a powerful data structure that allows us to represent complex entities with properties and behaviors. Understanding their internal representation is crucial for effectively working with objects and harnessing their flexibility. By leveraging the underlying hash table implementation, JavaScript provides efficient property access, lookup, and manipulation. Whether you're building web applications, server-side scripts, or any JavaScript-powered system, a solid understanding of objects will undoubtedly enhance your development skills and enable you to create more robust and dynamic solutions.
