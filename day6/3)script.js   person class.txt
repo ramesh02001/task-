@@ -16,7 +16,7 @@
  
  
  
- var persondetail = new Person("surya","23","male","30-08-1999","9955 7573 7893","867945304")
+ var persondetail = new Person("ramesh","23","male","10-12-2001","9955 7573 7893","867945304")
  console.log(persondetail);
 
 
@@ -24,10 +24,10 @@
 output:
 
 Person {
-  name: 'surya',
+  name: 'ramesh',
   age: '23',
   gender: 'male',
-  dob: '30-08-1999',
+  dob: '10-12-2001',
   aadhernumbrt: '9955 7573 7893',
   phoneno: '867945304'
 }
