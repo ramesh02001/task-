@@ -2,7 +2,7 @@
 
 //1)for loop
 
-let jsonResume = '{"name":"surya ","age":23,"DOB":"30-08-1999","gender":"male", "phonenumber":7867945304,"ambition":"FSD Mern","favoritgame":"valleyboll","favotitAthlete":"100 meter runing,fitness"}';
+let jsonResume = '{"name":"ramesh ","age":23,"DOB":"10-12-2001","gender":"male", "phonenumber":7867945304,"ambition":"FSD Mern","favoritgame":"valleyboll","favotitAthlete":"100 meter runing,fitness"}';
 let jsonInfermation= '{"country":"india","state":"tamilnadu","distric":"kancheepurm","village":"pullalur"}';
  let jsonPopulation = '{"male": 4,"female": 93,"others": 10}';
 
@@ -25,9 +25,9 @@ let jsonInfermation= '{"country":"india","state":"tamilnadu","distric":"kancheep
 output:
 
 {
-  name: 'surya ',
+  name: 'ramesh ',
   age: 23,
-  DOB: '30-08-1999',
+  DOB: '10-12-2001',
   gender: 'male',
   phonenumber: 7867945304,
   ambition: 'FSD Mern',
@@ -47,7 +47,7 @@ output:
  //for loop:
 
 
-var jsonResume = '{"name":"surya ","age":23,"DOB":"30-08-1999","gender":"male", "phonenumber":7867945304,"ambition":"FSD Mern","favoritgame":"valleyboll"}' 
+var jsonResume = '{"name":"ramesh ","age":23,"DOB":"10-12-2001","gender":"male", "phonenumber":7867945304,"ambition":"FSD Mern","favoritgame":"valleyboll"}' 
  
  
   var resumedetails = JSON.parse( jsonResume);
@@ -59,9 +59,9 @@ var jsonResume = '{"name":"surya ","age":23,"DOB":"30-08-1999","gender":"male", 
 output:
 
 {
-  name: 'surya ',
+  name: 'ramesh ',
   age: 23,
-  DOB: '30-08-1999',
+  DOB: '10-12-2001',
   gender: 'male',
   phonenumber: 7867945304,
   ambition: 'FSD Mern',
@@ -73,7 +73,7 @@ output:
 
 //For in:
 
-let jsonResume = '{"name":"surya ","age":23,"DOB":"30-08-1999","gender":"male", "phonenumber":7867945304,"ambition":"FSD Mern","favoritgame":"valleyboll","favotitAthlete":"100 meter runing,fitness"}';
+let jsonResume = '{"name":"ramesh ","age":23,"DOB":"10-12-2001","gender":"male", "phonenumber":7867945304,"ambition":"FSD Mern","favoritgame":"valleyboll","favotitAthlete":"100 meter runing,fitness"}';
  
 let objA  = JSON.parse(jsonResume); 
  console.log(objA);
@@ -87,18 +87,18 @@ let objA  = JSON.parse(jsonResume);
 output:
 
 {
-  name: 'surya ',
+  name: 'ramesh ',
   age: 23,
-  DOB: '30-08-1999',
+  DOB: '10-12-2001',
   gender: 'male',
   phonenumber: 7867945304,
   ambition: 'FSD Mern',
   favoritgame: 'valleyboll',
   favotitAthlete: '100 meter runing,fitness'
 }
-name: surya 
+name: ramesh 
 age: 23
-DOB: 30-08-1999
+DOB: 10-12-2001
 gender: male
 phonenumber: 7867945304
 ambition: FSD Mern
@@ -146,7 +146,7 @@ output:
 
 //forEach
  
-let jsonRsume = '{"name":"surya ","age":23,"DOB":"30-08-1999","gender":"male", "phonenumber":7867945304,"ambition":"FSD Mern","favoritgame":"valleyboll","favotitAthlete":"100 meter runing,fitness"}';
+let jsonRsume = '{"name":"ramesh ","age":23,"DOB":"10-12-2001","gender":"male", "phonenumber":7867945304,"ambition":"FSD Mern","favoritgame":"valleyboll","favotitAthlete":"100 meter runing,fitness"}';
  
  
   let  objA  = JSON.parse( jsonRsume ); 
@@ -161,18 +161,18 @@ let jsonRsume = '{"name":"surya ","age":23,"DOB":"30-08-1999","gender":"male", "
 output:
 
 {
-  name: 'surya ',
+  name: 'ramesh ',
   age: 23,
-  DOB: '30-08-1999',
+  DOB: '10-12-2001',
   gender: 'male',
   phonenumber: 7867945304,
   ambition: 'FSD Mern',
   favoritgame: 'valleyboll',
   favotitAthlete: '100 meter runing,fitness'
 }
-name surya 
+name ramesh
 age 23
-DOB 30-08-1999
+DOB 10-12-2001
 gender male
 phonenumber 7867945304
 ambition FSD Mern
@@ -181,7 +181,7 @@ favotitAthlete 100 meter runing,fitness
 ----------------------------------------------------------
 //forEach
  
-let jsonRsume = '{"name":"surya ","age":23,"DOB":"30-08-1999","gender":"male", "phonenumber":7867945304,"ambition":"FSD Mern","favoritgame":"valleyboll","favotitAthlete":"100 meter runing,fitness"}';
+let jsonRsume = '{"name":"ramesh ","age":23,"DOB":"10-12-2001","gender":"male", "phonenumber":7867945304,"ambition":"FSD Mern","favoritgame":"valleyboll","favotitAthlete":"100 meter runing,fitness"}';
  
  
   let  objA  = JSON.parse( jsonRsume ); 
@@ -195,18 +195,18 @@ Object.values(objA).forEach(val => {
 output:
 
 {
-  name: 'surya ',
+  name: 'ramesh ',
   age: 23,
-  DOB: '30-08-1999',
+  DOB: '10-12-2001',
   gender: 'male',
   phonenumber: 7867945304,
   ambition: 'FSD Mern',
   favoritgame: 'valleyboll',
   favotitAthlete: '100 meter runing,fitness'
 }
-surya 
+ramesh 
 23
-30-08-1999
+10-12-2001
 male
 7867945304
 FSD Mern
